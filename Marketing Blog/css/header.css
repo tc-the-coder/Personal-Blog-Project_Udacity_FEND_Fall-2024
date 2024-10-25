@@ -1,0 +1,25 @@
+#header {
+    display:grid;
+    grid-template-columns: 100px repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+    "lg bt bt bt"
+    "mn mn mn mn";
+}
+
+#logo {
+    grid-area: lg;
+    background-image: url(../images/calDMLogo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    }
+
+#blog-title {
+    grid-area: bt;
+}
+
+h1 {
+    text-align: center;
+    color: darkviolet;
+    font-weight: bolder;
+  }

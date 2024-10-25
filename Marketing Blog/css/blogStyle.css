@@ -1,0 +1,144 @@
+@import url(search.css);
+@import url(header.css);
+@import url(menu.css);
+@import url(figure.css);
+
+@media (max-width: 400px) {
+  
+  .search-container button {
+      font-size:12px;
+      color:#ededed;
+  }
+  
+  li {
+    font-size:medium;
+  }
+
+  ul {
+    display: inline;
+  }
+
+  .child {
+    min-width: 50%;
+    padding-left: 10px;
+    padding-top: 5px;
+  }
+
+  h1 {
+    text-align: left;
+    font-size:smaller;
+  }
+
+  h2 {
+    font-size: 11pt;
+    text-align:center;
+  }
+
+  #header {
+    background:none;
+  }
+
+  .card p {
+    font-size: medium;
+}
+
+  footer {
+    background:none;
+  }
+
+
+}
+
+@media (min-width: 401px) and (max-width: 700px) {
+  .child {
+    min-width: 33.33%;
+  }
+  h1 {
+    font-size:large;
+  }
+  h2 {
+      font-size: 12pt;
+    }
+
+  footer {
+      background:none;
+  }         
+}
+
+body {
+  background-color: plum;
+  background-size: cover;
+}
+  
+#tiles {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    color:purple;  
+}
+
+p {
+    font-size: medium;
+}
+ 
+.child {
+    display:inline-block;
+    height: 100px;
+    font-size: 1rem;
+    flex: 1;
+    min-width: 25%;
+}
+
+.card {
+    border-radius: 10px;
+    justify-content:space-between;
+    margin: 5px;
+    background-color: white;
+    padding: 15px;
+}
+
+#mktg {
+    background-image: url(/images/marketing101CardBackground.png);
+    background-size:100%;
+    color:purple;
+}
+
+h2 {
+    font-size: large;
+    font-weight: bold;
+    background-color:purple;
+    color: aqua;
+}
+
+footer {
+    display:grid;
+}
+
+.authorBio h2 {
+    color: white;
+    background-color:inherit;
+    text-align: center;
+    text-decoration:underline overline;
+    text-decoration-style:dotted;
+}
+
+.authorBio h3 {
+    text-align: center;
+    font-size: medium;
+    padding-top:0px;
+}
+
+.authorBio p {
+    font-size: medium;
+}
+
+  div:has(> blockquote) {
+    background-color: #ededed;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 5px;
+  }
+  
+  blockquote + p {
+    text-align: right;
+  }

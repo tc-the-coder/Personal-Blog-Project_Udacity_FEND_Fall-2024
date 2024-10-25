@@ -1,0 +1,43 @@
+#menu {
+    grid-area: mn;
+    display:grid;
+    grid-template-columns: repeat (2, 1fr);
+    grid-template-columns: repeat (2, 1fr);
+    grid-template-areas:
+    "ss ss"
+    "nb nb";
+}
+
+#nav-bar {
+  grid-area: nb;
+}
+
+.menu {
+    max-height: 80px;
+}
+
+.menu ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.menu li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant: small-caps;
+    font-stretch: expanded;
+    font-weight: bold;
+}
+
+li {
+    display: inline;
+}
+ 
+.menu a{
+    text-decoration: none;
+    padding: 25px;
+    color: purple
+}
+
+.menu a:hover{
+    color:whitesmoke;
+}

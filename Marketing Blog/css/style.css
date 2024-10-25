@@ -1,0 +1,206 @@
+@import url(search.css);
+@import url(header.css);
+@import url(menu.css);
+  
+@media only screen and (max-width: 400px) {
+
+  body {
+    background-color: plum;
+    background-size: cover;
+  }
+
+  ul {
+    display: inline;
+  }
+
+  li {
+    font-size:small;
+  }
+  
+  p {
+    font-size: small;
+  } 
+  .card {
+    border-radius: 10px;
+    justify-content:space-between;
+    margin: 5px;
+    background-color: blueviolet;
+  }   
+  .card p {
+    font-style: italic;
+  }
+
+  h1 {
+    text-align: left;
+    font-size:small;
+    padding: 5px;
+  }
+  h2 {
+    font-size: small;
+    font-weight: bold;
+    background-color:purple;
+    color: aqua;
+    text-align: center;
+  }
+  h2 a {
+    color:aqua;
+  }
+  #header {
+    background:none;
+  }
+  #tiles {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    color:white;  
+  } 
+  
+  .tiles {
+    flex-grow: 1;
+    min-width: 85%;
+    min-height: 100px;
+  }
+  #mktg {
+    background-image: url(../images/marketing101CardBackground.png);
+    background-size:100%;
+  }
+  #site-search {
+    margin-top: 8px;
+  }
+  
+#nav-bar {
+  margin-top: 8px;
+}
+  footer {
+    background:none;
+    display:grid;
+    max-height: 40px;
+  }
+}
+
+  
+@media only screen and (min-width: 401px) and (max-width: 700px) {
+  * {
+    box-sizing: border-box;  
+  }
+
+  body {
+    background-color: plum;
+    background-size: cover;
+  }
+
+  .card {
+    border-radius: 10px;
+    justify-content:space-between;
+    margin: 5px;
+    background-color: blueviolet;
+  }
+  .card p {
+    font-style: italic;
+  }
+
+  p {
+    font-size: small;
+  }  
+  .tiles {
+    min-width: 50%;
+    flex-grow: 1;
+    min-height: 150px;
+  }
+  h1 {
+    font-size:large;
+  }
+  h2 {
+    font-size: 12pt;
+    font-weight: bold;
+    background-color:purple;
+    color: aqua;
+  }
+    h2 a {
+      color:aqua;
+    }
+    #tiles {
+      display: flex;
+      flex-wrap: wrap;
+      text-align: center;
+      color:white;  
+    }
+    #site-search {
+      margin-top: 8px;
+    } 
+    #mktg {
+      background-image: url(../images/marketing101CardBackground.png);
+      background-size:100%;
+    }       
+    #footer {
+      display:grid;
+      max-height: 40px;
+      padding:10px;
+    }    
+    
+}
+
+@media only screen and (min-width: 700.01px){
+* {
+  box-sizing: border-box;  
+}
+
+body {
+  background-color: plum;
+  background-size: cover;
+}
+
+.card p {
+  font-style: italic;
+}
+
+h2 a {
+  color:aqua;
+}
+ 
+  #tiles {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    color:white;  
+  }
+
+  p {
+    font-size: small;
+  }
+ 
+  .child {
+    height: 100px;
+    font-size: 1rem;
+    flex: 1;
+    min-width: 25%;
+  }
+
+  .card {
+    border-radius: 10px;
+    justify-content:space-between;
+    margin: 5px;
+    background-color: blueviolet;
+  }
+
+  #mktg {
+    background-image: url(../images/marketing101CardBackground.png);
+    background-size:100%;
+  }
+
+  h2 {
+    font-size: large;
+    font-weight: bold;
+    background-color:purple;
+    color: aqua;
+  }
+
+  #footer {
+    display:grid;
+    max-height: 40px;
+    padding:10px;
+    color:white;
+    background: white;
+  }
+}
+  
